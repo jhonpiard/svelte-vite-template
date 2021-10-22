@@ -1,0 +1,23 @@
+{
+  "name": "svelte-vite-template",
+  "version": "1.0.0",
+  "description": "svelte template with vite",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "dev-all": "vite --host",
+    "build": "vite build"
+  },
+  "keywords": ["svelte", "vite", "template"],
+  "author": "any",
+  "license": "MIT",
+
+  "dependencies": {
+    "svelte": "^3.44.0"
+  },
+
+  "devDependencies": {
+    "vite": "^2.6.10",
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30"
+  }
+}
